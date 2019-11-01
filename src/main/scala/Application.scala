@@ -6,7 +6,7 @@ import org.apache.spark.sql.SparkSession
 object Application {
 
   def main(args: Array[String]): Unit = {
-
+    // wode git
     //1、创建SparkSession
     val spark = SparkSession.builder()
       .master("local[3]")
