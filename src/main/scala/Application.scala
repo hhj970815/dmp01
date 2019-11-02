@@ -6,7 +6,7 @@ import org.apache.spark.sql.SparkSession
 object Application {
 
   def main(args: Array[String]): Unit = {
-
+    // 运行主类入口
     //1、创建SparkSession
     val spark = SparkSession.builder()
       .master("local[3]")
