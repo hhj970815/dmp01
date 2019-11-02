@@ -6,9 +6,6 @@ import org.apache.spark.rdd.RDD
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
 
-/**
-  * 进行标签聚合
-  */
 object TagAgg {
 
   def agg(graphData: RDD[(VertexId, (ArrayBuffer[String], mutable.Map[String, Double]))])={
