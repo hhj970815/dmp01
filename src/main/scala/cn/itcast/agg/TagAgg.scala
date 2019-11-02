@@ -7,7 +7,7 @@ import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
 
 /**
-  * 进行标签聚合
+  * 进行标签聚合, 标签聚合
   */
 object TagAgg {
 
